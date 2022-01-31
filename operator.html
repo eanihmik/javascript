@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    // == : datatype 달라도 가지고 있는 정보 같으면 true => 헷갈리니까 그냥 쓰지 말자
+    console.log(1 == "1"); // true
+    console.log(1 == true); // true
+    console.log("1" == true); // true
+    console.log(1 == "true"); // false
+    
+    // === : strictly 같은지 비교
+    console.log(1 === "1"); // false
+    console.log(1 === true); // false
+    
+    var a; // undefined
+    var b = null;
+    console.log(a == b); // true
+    console.log(a === b); // false(undefined != null)
+    
+    console.log(0 === -0); // true
+</script>
+</body>
+</html>
