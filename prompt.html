@@ -5,11 +5,11 @@
 </head>
 <body>
     <script>
-        id = prompt('아이디를 입력하세요'); // 사용자 입력
+        var id = prompt('아이디를 입력하세요'); // 사용자 입력
         if (id == 'eanihmik') {
             alert('아이디가 일치합니다');
-            pw = prompt('비밀번호를 입력하세요');
-            if (pw == 1201) {
+            var pw = prompt('비밀번호를 입력하세요');
+            if (pw == '1201') {
                 alert('로그인 성공! '+id+'님 반갑습니다');
             } else {
                 alert ('비밀번호가 일치하지 않습니다');
