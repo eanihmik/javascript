@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    // for (초기값; 조건; 업데이트)
+    for (var i = 0; i < 10; i++) {
+        document.write('Hello world '+i+ '<br />');
+    }
+    
+    for (i = 0; i < 10; i++) {
+        if (i === 5) {
+            break; // 5부터 출력 x
+        }
+        document.write('Hello world '+i+ '<br />');
+    }
+    
+    for (i = 0; i < 10; i++) {
+        if (i === 5) {
+            continue; // 5 건너뛰고 출력
+        }
+        document.write('Hello world '+i+ '<br />');
+    }
+</script>
+</body>
+</html>
