@@ -9,3 +9,5 @@
 - **비교** operator.html *[JS Comparison Table: https://dorey.github.io/JavaScript-Equality-Table/]*
 - **조건문** elseif.html, logical.html
 - **반복문** iter.html, breakcontinue.html, layered.html
+- **함수** function.html
+- **배열** array.html
