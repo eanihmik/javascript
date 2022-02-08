@@ -5,8 +5,19 @@
 </head>
 <body>
 <script type="text/javascript">
-    var id = ['eanihmik'. 'iheanmik', '__setiruovaf_ym']
-    log.console(id)
+    var id = ['eanihmik', 'iheanmik', '__setiruovaf_ym']
+    console.log(id[0])
+    console.log(id[1])
+    console.log(id[2].toUpperCase()) // 대문자화
+    
+    // 함수, 배열, 반복문 모두 사용
+    function get_id() {
+        return ['eanihmik', 'iheanmik', '__setiruovaf_ym'];
+    }
+    id = get_id();
+    for (var i = 0; i < id.length; i++) { // id.length = 3
+        document.write(id[i].toUpperCase() + '<br />')
+    }
 </script>
 </body>
 </html>
